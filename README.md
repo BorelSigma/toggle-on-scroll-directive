@@ -4,7 +4,7 @@ Angular JS Directive for hiding/displaying an Element depending on whether a spe
 #How to use#
 
 
-##JS Code'##
+##JS Code##
 ```javascript
 <script type="text/javascript" src="hausen-tglScroll.js"></script>
 
