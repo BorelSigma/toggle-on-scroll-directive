@@ -1,4 +1,4 @@
-angular.module('toggle-on-scroll', function(){
+angular.module('hausen-tglScroll', function(){
 	
 }).directive('toggleOnScroll', function($timeout){
 	function link(scope, element, attrs){
@@ -42,3 +42,4 @@ angular.module('toggle-on-scroll', function(){
 		restrict: 'A',
 		link : link
 	}
+});
