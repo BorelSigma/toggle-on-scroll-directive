@@ -31,6 +31,7 @@ angular.module('hausen-tglScroll', function(){
 			$(document).scroll(toggle_logo_on_scroll);
 		}, 50);
 
+		//clear event listener on scope destroy
 		scope.$on('$destroy', function(){
 		    	if(typeof toggle_elm !== 'undefined' && show_on_destroy){
 		    		toggle_elm.show();

@@ -3,7 +3,6 @@ Angular JS Directive for hiding/displaying an Element depending on whether a spe
 
 #How to use#
 
-
 ##JS Code##
 ```javascript
 <script type="text/javascript" src="hausen-tglScroll.js"></script>
@@ -15,7 +14,10 @@ Angular JS Directive for hiding/displaying an Element depending on whether a spe
 <div toggle-on-scroll toggle-elm-id="foo" show-on-destroy="true"></div>
 
 ```
+Parameter: 
 
+	{string} toggle-elm-id : id of the element you want to show/hide
+	{boolean} show-on-destroy: should the element you want to show/hide be shown when scope is destroyed (e.g. on route change) 
 ##CSS##
 ```html
 <style>
